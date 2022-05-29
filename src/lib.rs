@@ -2,7 +2,7 @@
 
 #[no_mangle]
 pub fn hello_from_rust_wo_std() -> *const u8 {
-    b"Hello world, from rust!".as_ptr()
+    b"Hello world, from rust!\0".as_ptr()
 }
 
 
